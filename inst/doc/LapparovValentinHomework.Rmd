@@ -1,0 +1,21 @@
+---
+title: "package homework"
+author: "Lapparov Valentin"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+##INFO
+
+This is a test package asked as a homework within X/HEC course.
+
+- 'draw_a_name' - a function which can plot the popularity of babynames (using prenoms) in times use the_name and  the_sex as arguments.
+
+- 'draw_names' - a function which can plot simultaneously the popularity of more than one name
+
+- 'multi_excel' - a function which read all sheets in excel file
+
+- 'my_csv_reader' - returns all the excel files in one list from given folder
